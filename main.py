@@ -15,4 +15,4 @@ app.include_router(user_router.router)
 
 @app.get('/')
 async def root():
-    return {'Server is running': 'yes'}
+    return {"Server is running": "yes"}
